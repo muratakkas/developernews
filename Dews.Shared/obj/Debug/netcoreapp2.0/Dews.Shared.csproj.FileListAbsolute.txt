@@ -1,0 +1,28 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\bin\Debug\netcoreapp2.0\Dews.Shared.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\bin\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\bin\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\bin\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.Resources.Resource.resources
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.Resources.Resource.tr-TR.resources
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.csproj.GenerateResource.Cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.csprojResolveAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.Shared\bin\Debug\netcoreapp2.0\Dews.Shared.deps.json
+C:\GitBase\DeveloperNews\Dews.Shared\bin\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\GitBase\DeveloperNews\Dews.Shared\bin\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\GitBase\DeveloperNews\Dews.Shared\bin\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.Resources.Resource.resources
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.Resources.Resource.tr-TR.resources
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.csproj.GenerateResource.cache
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\GitBase\DeveloperNews\Dews.Shared\obj\Debug\netcoreapp2.0\Dews.Shared.pdb

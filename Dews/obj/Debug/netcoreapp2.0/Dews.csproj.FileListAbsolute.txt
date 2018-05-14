@@ -1,0 +1,11 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.runtimeconfig.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.runtimeconfig.dev.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.pdb

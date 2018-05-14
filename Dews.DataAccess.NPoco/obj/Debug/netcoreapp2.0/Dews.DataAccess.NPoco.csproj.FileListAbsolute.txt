@@ -1,0 +1,11 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPoco.pdb

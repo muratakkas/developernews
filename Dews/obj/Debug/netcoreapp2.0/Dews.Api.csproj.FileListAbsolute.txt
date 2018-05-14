@@ -1,0 +1,50 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.runtimeconfig.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.runtimeconfig.dev.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.News.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.News.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.deps.json
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.runtimeconfig.json
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.runtimeconfig.dev.json
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Api.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.News.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.News.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\GitBase\DeveloperNews\Dews\bin\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.dll
+C:\GitBase\DeveloperNews\Dews\obj\Debug\netcoreapp2.0\Dews.Api.pdb

@@ -1,0 +1,18 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\bin\Debug\netcoreapp2.0\Dews.Logger.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.csprojResolveAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.Logger\bin\Debug\netcoreapp2.0\Dews.Logger.deps.json
+C:\GitBase\DeveloperNews\Dews.Logger\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\GitBase\DeveloperNews\Dews.Logger\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\GitBase\DeveloperNews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\GitBase\DeveloperNews\Dews.Logger\obj\Debug\netcoreapp2.0\Dews.Logger.pdb

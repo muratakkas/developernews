@@ -1,0 +1,34 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.News.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.News.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.News.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\bin\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.News.deps.json
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.News.dll
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.News.pdb
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Shared.dll
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\Dews.Shared.pdb
+C:\GitBase\DeveloperNews\Dews.News\bin\Debug\netcoreapp2.0\tr-TR\Dews.Shared.resources.dll
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.dll
+C:\GitBase\DeveloperNews\Dews.News\obj\Debug\netcoreapp2.0\Dews.News.pdb

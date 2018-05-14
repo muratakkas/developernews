@@ -1,0 +1,24 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.deps.json
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.dll
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.pdb
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.dll
+C:\GitBase\DeveloperNews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.ConsoleLogger.pdb

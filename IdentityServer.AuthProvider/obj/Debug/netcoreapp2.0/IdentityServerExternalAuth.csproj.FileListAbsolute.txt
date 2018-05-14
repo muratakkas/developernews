@@ -1,0 +1,9 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\obj\Debug\netcoreapp2.0\IdentityServerExternalAuth.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\obj\Debug\netcoreapp2.0\IdentityServerExternalAuth.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\obj\Debug\netcoreapp2.0\IdentityServerExternalAuth.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\bin\Debug\netcoreapp2.0\IdentityServerExternalAuth.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\bin\Debug\netcoreapp2.0\IdentityServerExternalAuth.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\obj\Debug\netcoreapp2.0\IdentityServerExternalAuth.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\bin\Debug\netcoreapp2.0\IdentityServerExternalAuth.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\obj\Debug\netcoreapp2.0\IdentityServerExternalAuth.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\IdentityServer.AuthProvider\obj\Debug\netcoreapp2.0\IdentityServerExternalAuth.pdb

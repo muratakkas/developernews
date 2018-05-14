@@ -1,0 +1,18 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\bin\Debug\netcoreapp2.0\Dews.DataAccess.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.csprojResolveAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess\bin\Debug\netcoreapp2.0\Dews.DataAccess.deps.json
+C:\GitBase\DeveloperNews\Dews.DataAccess\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\GitBase\DeveloperNews\Dews.DataAccess\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\GitBase\DeveloperNews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\GitBase\DeveloperNews\Dews.DataAccess\obj\Debug\netcoreapp2.0\Dews.DataAccess.pdb

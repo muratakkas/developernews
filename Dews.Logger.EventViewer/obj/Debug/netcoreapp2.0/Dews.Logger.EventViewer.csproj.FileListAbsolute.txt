@@ -1,0 +1,11 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.EventViewer.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.EventViewer.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.EventViewer.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\bin\Debug\netcoreapp2.0\Dews.Logger.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.EventViewer.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.EventViewer.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.EventViewer.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.EventViewer.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.EventViewer.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.Logger.EventViewer\obj\Debug\netcoreapp2.0\Dews.Logger.EventViewer.csprojResolveAssemblyReference.cache

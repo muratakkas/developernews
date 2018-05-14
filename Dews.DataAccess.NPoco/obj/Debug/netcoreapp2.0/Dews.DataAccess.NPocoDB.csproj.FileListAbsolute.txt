@@ -1,0 +1,24 @@
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.deps.json
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.csprojResolveAssemblyReference.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.csproj.CoreCompileInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.AssemblyInfoInputs.cache
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.AssemblyInfo.cs
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.dll
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.pdb
+C:\Users\murat.akkas\Documents\Visual Studio 2017\Projects\Dews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.deps.json
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.dll
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.pdb
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.dll
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\bin\Debug\netcoreapp2.0\Dews.DataAccess.pdb
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.csprojAssemblyReference.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.csproj.CoreCompileInputs.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.AssemblyInfoInputs.cache
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.AssemblyInfo.cs
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.csproj.CopyComplete
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.dll
+C:\GitBase\DeveloperNews\Dews.DataAccess.NPoco\obj\Debug\netcoreapp2.0\Dews.DataAccess.NPocoDB.pdb
