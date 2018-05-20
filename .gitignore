@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+
+/IdentityServerWithAspNetIdentity/obj
+/Dews.Shared/bin
+/Dews.Shared/obj
+bin
+/Dews.Shared/obj
+/IdentityServerWithAspNetIdentity/bin
+/IdentityServerWithAspNetIdentity/obj
+/Dews.DataAccess/bin
+/Dews.DataAccess/obj
+/Dews/bin
+/Dews/obj
+/Dews.DataAccess/bin
+/Dews.DataAccess/obj 
+/IdentityServerWithAspNetIdentity/identityserver4_log.txt
+/.vs
