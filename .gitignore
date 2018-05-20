@@ -21,3 +21,4 @@ bin
 /Dews/obj
 *.vs
 /.vs
+/IdentityServerWithAspNetIdentity/identityserver4_log.txt
