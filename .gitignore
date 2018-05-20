@@ -7,6 +7,7 @@
 /Dews.Shared/bin
 /Dews.Shared/obj
 bin
+obj
 /Dews.Shared/obj
 /IdentityServerWithAspNetIdentity/bin
 /IdentityServerWithAspNetIdentity/obj
@@ -22,3 +23,16 @@ bin
 *.vs
 /.vs
 /IdentityServerWithAspNetIdentity/identityserver4_log.txt
+/IdentityServerWithAspNetIdentity/Properties/PublishProfiles
+/Dews.DataAccess/bin
+/Dews.DataAccess/obj
+/Dews.DataAccess.NPoco/bin
+/Dews.DataAccess.NPoco/obj
+/Dews.Logger/bin
+/Dews.Logger/obj
+/Dews.Logger.EventViewer/bin
+/Dews.Logger.EventViewer/obj
+/Dews.News/obj
+/Dews.News/bin
+/Dews.Shared/obj
+/Dews.Shared/bin

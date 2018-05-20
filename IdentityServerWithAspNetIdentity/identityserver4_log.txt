@@ -14612,3 +14612,9 @@ xjpfv0od.1pj(65,71): error CS0246: The type or namespace name 'LoginViewModel' c
 2018-05-20 16:46:57.950 +03:00 [INF] Successful signout callback.
 2018-05-20 16:46:57.953 +03:00 [DBG] No client front-channel iframe urls
 2018-05-20 16:46:57.958 +03:00 [DBG] No client back-channel iframe urls
+2018-05-20 18:45:25.678 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-20 18:45:25.730 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-05-20 18:45:25.733 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-05-20 18:45:25.734 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-05-20 18:45:25.734 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-05-20 18:45:25.734 +03:00 [DBG] Using Identity.Application as default scheme for forbid
