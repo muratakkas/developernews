@@ -4,6 +4,8 @@
 using IdentityModel;
 using IdentityServer4;
 using IdentityServer4.Models;
+using IdentityServerWithAspNetIdentity.Extensions;
+using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Security.Claims;
 
@@ -30,12 +32,12 @@ namespace IdentityServerWithAspNetIdentity
         {
             return new List<ApiResource>
             {
-                new ApiResource("dews.api", "Developer News Api") 
+                new ApiResource("dews.api", "Developer News Api")
             };
         }
 
         // clients want to access resources (aka scopes)
-        public static IEnumerable<Client> GetClients()
+        public static IEnumerable<Client> GetClients(IConfiguration configuration)
         {
             // client credentials client
             return new List<Client>
@@ -65,16 +67,15 @@ namespace IdentityServerWithAspNetIdentity
                         new Secret("secret".Sha256())
                     },
 
-                    RedirectUris = { "http://localhost:4200" },
-                    PostLogoutRedirectUris = { "http://localhost:4200" }, 
+                    RedirectUris = { configuration.GetDewsWebServerUrl() },
+                    PostLogoutRedirectUris = { configuration.GetDewsWebServerUrl()},
                     AllowAccessTokensViaBrowser = true,
                     AlwaysIncludeUserClaimsInIdToken =true,
                     AlwaysSendClientClaims = true,
                     RequireConsent = false,
                     AllowedCorsOrigins = new List<string>
                     {
-                    "http://127.0.0.1:4200",
-                    "http://localhost:4200",
+                   configuration.GetDewsWebServerUrl(),
                     "*"
                     },
                     AllowedScopes =

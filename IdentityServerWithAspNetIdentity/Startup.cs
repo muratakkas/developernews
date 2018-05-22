@@ -9,7 +9,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using IdentityServerWithAspNetIdentity.Data;
-using IdentityServerWithAspNetIdentity.Models; 
+using IdentityServerWithAspNetIdentity.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
+using IdentityServerWithAspNetIdentity.Extensions;
 
 namespace IdentityServerWithAspNetIdentity
 {
@@ -26,6 +29,8 @@ namespace IdentityServerWithAspNetIdentity
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
@@ -43,7 +48,7 @@ namespace IdentityServerWithAspNetIdentity
                 iis.AuthenticationDisplayName = "Windows";
                 iis.AutomaticAuthentication = false;
             });
-             
+
 
             var builder = services.AddIdentityServer(options =>
                 {
@@ -54,28 +59,28 @@ namespace IdentityServerWithAspNetIdentity
                 })
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApiResources())
-                .AddInMemoryClients(Config.GetClients())
+                .AddInMemoryClients(Config.GetClients(Configuration))
                 .AddAspNetIdentity<ApplicationUser>();
 
-            if (Environment.IsDevelopment())
-            {
+                #if DEBUG
                 builder.AddDeveloperSigningCredential();
-            }
-            else
-            {
-                throw new Exception("need to configure key material");
-            }
+#else
+                builder.AddSigninCredentialFromConfig(Configuration.GetSection("SigninKeyCredentials"));
+#endif
+
+            var googleConfig = Configuration.GetSection("Google");
+            var twitterConfig = Configuration.GetSection("Twitter");
 
             services.AddAuthentication()
               .AddGoogle(options =>
               {
-                  options.ClientId = "708996912208-9m4dkjb5hscn7cjrn5u0r4tbgkbj1fko.apps.googleusercontent.com";
-                  options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
+                  options.ClientId = googleConfig.GetValue<string>("ClientId");
+                  options.ClientSecret = googleConfig.GetValue<string>("ClientSecret");
               })
               .AddTwitter(options =>
               {
-                  options.ConsumerKey = "IwwaZzZCLi6ho5Dxm0Z80rAH8";
-                  options.ConsumerSecret = "Q736RE2WxtCAYzyzqxcXknQKBa89X9SNM9EAb3dA6RKGGZVzdu";
+                  options.ConsumerKey = twitterConfig.GetValue<string>("ClientId");
+                  options.ConsumerSecret = twitterConfig.GetValue<string>("ClientSecret");
               });
         }
 
@@ -91,6 +96,8 @@ namespace IdentityServerWithAspNetIdentity
                 app.UseExceptionHandler("/Home/Error");
             }
 
+            app.UseDeveloperExceptionPage();
+            app.UseDatabaseErrorPage();
             app.UseStaticFiles();
             app.UseIdentityServer();
             app.UseMvcWithDefaultRoute();
