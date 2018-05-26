@@ -15040,3 +15040,283 @@ xjpfv0od.1pj(65,71): error CS0246: The type or namespace name 'LoginViewModel' c
 2018-05-23 01:55:47.392 +03:00 [DBG] Start authorize request protocol validation
 2018-05-23 01:55:47.395 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
 2018-05-23 01:55:48.661 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:26:06.765 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-24 12:26:06.846 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-05-24 12:26:06.854 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-05-24 12:26:06.857 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-05-24 12:26:06.859 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-05-24 12:26:06.861 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-05-24 12:32:40.560 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-24 12:32:40.650 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-05-24 12:32:40.657 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-05-24 12:32:40.660 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-05-24 12:32:40.662 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-05-24 12:32:40.664 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-05-24 12:32:58.358 +03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-24 12:32:58.570 +03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-24 12:32:58.572 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-24 12:32:58.581 +03:00 [DBG] Start authorize request
+2018-05-24 12:32:58.596 +03:00 [DBG] No user present in authorize request
+2018-05-24 12:32:58.607 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:32:58.697 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:32:58.828 +03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "dews.web",
+  "ClientName": "Developer News",
+  "RedirectUri": "http://localhost:4200",
+  "AllowedRedirectUris": [
+    "http://localhost:4200"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile dews.api",
+  "State": "15271543783360.3848232779443064",
+  "Nonce": "N0.98796374577335121527154378336",
+  "Raw": {
+    "client_id": "dews.web",
+    "redirect_uri": "http://localhost:4200",
+    "response_type": "id_token token",
+    "scope": "openid profile dews.api",
+    "nonce": "N0.98796374577335121527154378336",
+    "state": "15271543783360.3848232779443064"
+  }
+}
+2018-05-24 12:32:58.848 +03:00 [INF] Showing login: User is not authenticated
+2018-05-24 12:32:59.083 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:32:59.086 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:33:01.944 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:33:40.406 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:35:05.108 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:35:14.495 +03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-24 12:35:14.500 +03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-24 12:35:14.503 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-24 12:35:14.507 +03:00 [DBG] Start authorize request
+2018-05-24 12:35:14.513 +03:00 [DBG] No user present in authorize request
+2018-05-24 12:35:14.515 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:35:14.518 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:35:14.521 +03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "dews.web",
+  "ClientName": "Developer News",
+  "RedirectUri": "http://localhost:4200",
+  "AllowedRedirectUris": [
+    "http://localhost:4200"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile dews.api",
+  "State": "15271543783360.3848232779443064",
+  "Nonce": "N0.46864257661055841527154514479",
+  "Raw": {
+    "client_id": "dews.web",
+    "redirect_uri": "http://localhost:4200",
+    "response_type": "id_token token",
+    "scope": "openid profile dews.api",
+    "nonce": "N0.46864257661055841527154514479",
+    "state": "15271543783360.3848232779443064"
+  }
+}
+2018-05-24 12:35:14.529 +03:00 [INF] Showing login: User is not authenticated
+2018-05-24 12:35:14.590 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:35:14.594 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:35:15.927 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:35:27.943 +03:00 [INF] Error from RemoteAuthentication: The oauth state was missing or invalid..
+2018-05-24 12:35:27.954 +03:00 [ERR] An unhandled exception has occurred while executing the request
+System.Exception: The oauth state was missing or invalid.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-05-24 12:36:28.206 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:38:20.121 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-24 12:38:20.186 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-05-24 12:38:20.192 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-05-24 12:38:20.194 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-05-24 12:38:20.196 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-05-24 12:38:20.199 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-05-24 12:38:38.244 +03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-24 12:38:38.447 +03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-24 12:38:38.449 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-24 12:38:38.462 +03:00 [DBG] Start authorize request
+2018-05-24 12:38:38.478 +03:00 [DBG] No user present in authorize request
+2018-05-24 12:38:38.488 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:38:38.596 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:38:38.732 +03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "dews.web",
+  "ClientName": "Developer News",
+  "RedirectUri": "http://localhost:4200",
+  "AllowedRedirectUris": [
+    "http://localhost:4200"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile dews.api",
+  "State": "15271547182220.04134562192576352",
+  "Nonce": "N0.95814188842715861527154718222",
+  "Raw": {
+    "client_id": "dews.web",
+    "redirect_uri": "http://localhost:4200",
+    "response_type": "id_token token",
+    "scope": "openid profile dews.api",
+    "nonce": "N0.95814188842715861527154718222",
+    "state": "15271547182220.04134562192576352"
+  }
+}
+2018-05-24 12:38:38.757 +03:00 [INF] Showing login: User is not authenticated
+2018-05-24 12:38:38.965 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:38:38.973 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:38:40.727 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:40:53.241 +03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-24 12:40:53.248 +03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-24 12:40:53.251 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-24 12:40:53.253 +03:00 [DBG] Start authorize request
+2018-05-24 12:40:53.277 +03:00 [DBG] No user present in authorize request
+2018-05-24 12:40:53.282 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:40:53.285 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:40:53.288 +03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "dews.web",
+  "ClientName": "Developer News",
+  "RedirectUri": "http://localhost:4200",
+  "AllowedRedirectUris": [
+    "http://localhost:4200"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile dews.api",
+  "State": "15271548532290.8820126658085556",
+  "Nonce": "N0.73345016390840211527154853229",
+  "Raw": {
+    "client_id": "dews.web",
+    "redirect_uri": "http://localhost:4200",
+    "response_type": "id_token token",
+    "scope": "openid profile dews.api",
+    "nonce": "N0.73345016390840211527154853229",
+    "state": "15271548532290.8820126658085556"
+  }
+}
+2018-05-24 12:40:53.293 +03:00 [INF] Showing login: User is not authenticated
+2018-05-24 12:40:53.384 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:40:53.387 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:40:54.785 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:43:00.907 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:43:07.693 +03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-24 12:43:07.697 +03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-24 12:43:07.700 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-24 12:43:07.702 +03:00 [DBG] Start authorize request
+2018-05-24 12:43:07.705 +03:00 [DBG] No user present in authorize request
+2018-05-24 12:43:07.709 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:43:07.713 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:43:07.715 +03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "dews.web",
+  "ClientName": "Developer News",
+  "RedirectUri": "http://localhost:4200",
+  "AllowedRedirectUris": [
+    "http://localhost:4200"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile dews.api",
+  "State": "15271548532290.8820126658085556",
+  "Nonce": "N0.68997474806359521527154987683",
+  "Raw": {
+    "client_id": "dews.web",
+    "redirect_uri": "http://localhost:4200",
+    "response_type": "id_token token",
+    "scope": "openid profile dews.api",
+    "nonce": "N0.68997474806359521527154987683",
+    "state": "15271548532290.8820126658085556"
+  }
+}
+2018-05-24 12:43:07.717 +03:00 [INF] Showing login: User is not authenticated
+2018-05-24 12:43:07.786 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:43:07.788 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:43:09.759 +03:00 [INF] AuthenticationScheme: Google was challenged.
+2018-05-24 12:44:02.791 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-24 12:44:02.835 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-05-24 12:44:02.839 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-05-24 12:44:02.839 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-05-24 12:44:02.839 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-05-24 12:44:02.839 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-05-24 12:44:36.351 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-05-24 12:44:36.451 +03:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-05-24 12:44:36.460 +03:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-05-24 12:44:36.466 +03:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-05-24 12:44:36.470 +03:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-05-24 12:44:36.474 +03:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-05-24 12:44:52.701 +03:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2018-05-24 12:44:52.864 +03:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-05-24 12:44:52.867 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-05-24 12:44:52.879 +03:00 [DBG] Start authorize request
+2018-05-24 12:44:52.900 +03:00 [DBG] No user present in authorize request
+2018-05-24 12:44:52.918 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:44:53.009 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:44:53.124 +03:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "dews.web",
+  "ClientName": "Developer News",
+  "RedirectUri": "http://localhost:4200",
+  "AllowedRedirectUris": [
+    "http://localhost:4200"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile dews.api",
+  "State": "15271548532290.8820126658085556",
+  "Nonce": "N0.84980375939703731527155092676",
+  "Raw": {
+    "client_id": "dews.web",
+    "redirect_uri": "http://localhost:4200",
+    "response_type": "id_token token",
+    "scope": "openid profile dews.api",
+    "nonce": "N0.84980375939703731527155092676",
+    "state": "15271548532290.8820126658085556"
+  }
+}
+2018-05-24 12:44:53.144 +03:00 [INF] Showing login: User is not authenticated
+2018-05-24 12:44:53.385 +03:00 [DBG] Start authorize request protocol validation
+2018-05-24 12:44:53.389 +03:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-05-24 12:44:54.958 +03:00 [INF] AuthenticationScheme: Google was challenged.

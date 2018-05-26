@@ -37,14 +37,13 @@ namespace Dews.Api
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            .AddJwtBearer(options =>
            {
-                // base-address of your identityserver
-                options.Authority = "http://localhost:5000";
+               // base-address of your identityserver
+               options.Authority = Configuration.GetValue<string>(Const.IdpServerUrl);
 
-                // name of the API resource
-                options.Audience = "dews.api";
+               // name of the API resource
+               options.Audience = Configuration.GetValue<string>(Const.ApiName); 
 
-
-               options.RequireHttpsMetadata = false;
+               options.RequireHttpsMetadata = Configuration.GetValue<bool>(Const.RequireHttpsMetadata); 
            });
 
             //Set App Settings

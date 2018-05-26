@@ -71,17 +71,19 @@ namespace IdentityServerWithAspNetIdentity
             var googleConfig = Configuration.GetSection("Google");
             var twitterConfig = Configuration.GetSection("Twitter");
 
+
             services.AddAuthentication()
-              .AddGoogle(options =>
-              {
-                  options.ClientId = googleConfig.GetValue<string>("ClientId");
-                  options.ClientSecret = googleConfig.GetValue<string>("ClientSecret");
-              })
-              .AddTwitter(options =>
-              {
-                  options.ConsumerKey = twitterConfig.GetValue<string>("ClientId");
-                  options.ConsumerSecret = twitterConfig.GetValue<string>("ClientSecret");
-              });
+                .AddGoogle("Google", options =>
+                {
+                    options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
+
+                    options.ClientId = "323733027298-kl1jit35sf8u4fnaq78vv0r8m2t57b4p.apps.googleusercontent.com";
+                    options.ClientSecret = "v2ZxFoNKOczihU_ZV3SeUD9-";
+                }).AddTwitter(options =>
+                {
+                    options.ConsumerKey = "IwwaZzZCLi6ho5Dxm0Z80rAH8";
+                    options.ConsumerSecret = "Q736RE2WxtCAYzyzqxcXknQKBa89X9SNM9EAb3dA6RKGGZVzdu";
+                });
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
