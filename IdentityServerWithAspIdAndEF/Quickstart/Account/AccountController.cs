@@ -502,6 +502,9 @@ namespace IdentityServer4.Quickstart.UI
 
                 // raise the logout event
                 await _events.RaiseAsync(new UserLogoutSuccessEvent(User.GetSubjectId(), User.GetDisplayName()));
+
+                await _signInManager.SignOutAsync(); 
+                
             }
 
             // check if we need to trigger sign-out at an upstream identity provider
