@@ -13,6 +13,9 @@ using IdentityServer4;
 using IdentityServerWithAspIdAndEF.Services;
 using IdentityServerWithAspIdAndEF.ActionFilter;
 using IdentityServerWithAspIdAndEF.Extensions;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
+using Microsoft.AspNetCore.DataProtection;
+using System.IO;
 
 namespace IdentityServerWithAspIdAndEF
 {
@@ -31,6 +34,19 @@ namespace IdentityServerWithAspIdAndEF
         {
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
+
+
+            // Add Cors
+            services.AddCors(o => o.AddPolicy("MyPolicy", buildeCors =>
+            {
+                #if DEBUG
+                buildeCors.AllowAnyOrigin();
+                #else 
+                buildeCors.WithOrigins(new string[] { "http://developernews.site" });
+                #endif 
+                buildeCors.AllowAnyMethod();
+                buildeCors.AllowAnyHeader();
+            }));
 
 
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -79,13 +95,23 @@ namespace IdentityServerWithAspIdAndEF
                     options.EnableTokenCleanup = true;
                     // options.TokenCleanupInterval = 15; // frequency in seconds to cleanup stale grants. 15 is useful during debugging
                 });
+            services.Configure<KeyManagementOptions>(options =>
+            {
+                options.XmlRepository = new MyCustomXmlRepository();
+            });
 
+           
 
-                #if DEBUG
-                builder.AddDeveloperSigningCredential();
-                #else
-                builder.AddSigninCredentialFromConfig(Configuration.GetSection("SigninKeyCredentials"));
-                #endif
+            #if DEBUG
+                        builder.AddDeveloperSigningCredential();
+            #else
+
+                        services.AddDataProtection()
+                        .PersistKeysToFileSystem(new DirectoryInfo(Configuration.GetSection("SigninKeyCredentials").GetValue<string>(SigninCredentialExtension.KeyPersistPath)));
+
+                        builder.AddSigninCredentialFromConfig(Configuration.GetSection("SigninKeyCredentials"));
+            #endif
+
 
 
             services.AddAuthentication()
@@ -102,6 +128,9 @@ namespace IdentityServerWithAspIdAndEF
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+
+            // Enable Cors
+            app.UseCors("MyPolicy");
 
             if (env.IsDevelopment())
             {

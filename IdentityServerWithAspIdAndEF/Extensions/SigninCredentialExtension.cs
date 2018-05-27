@@ -28,6 +28,8 @@ namespace IdentityServerWithAspIdAndEF.Extensions
         private const string KeyFilePath = "KeyFilePath";
         private const string KeyFilePassword = "KeyFilePassword";
         private const string KeyStoreIssuer = "KeyStoreIssuer";
+        public static string KeyPersistPath = "KeyPersistPath";
+
 
         public static IIdentityServerBuilder AddSigninCredentialFromConfig(
             this IIdentityServerBuilder builder, IConfigurationSection options)
@@ -71,7 +73,21 @@ namespace IdentityServerWithAspIdAndEF.Extensions
 
             if (File.Exists(keyFilePath))
             {
-                builder.AddSigningCredential(new X509Certificate2(keyFilePath, keyFilePassword));
+                try
+                {
+                    X509Certificate2 cert = new X509Certificate2(keyFilePath, keyFilePassword,
+                    X509KeyStorageFlags.PersistKeySet | X509KeyStorageFlags.MachineKeySet);
+                    builder.AddSigningCredential(cert);
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("CertificateFromFile   found  but error occurred while adding certificate:" + keyFilePath,ex);
+                }
+               
+            }
+            else
+            {
+                throw new Exception("CertificateFromFile not found :" + keyFilePath);
             }
         }
     }
