@@ -17,10 +17,7 @@ namespace Dews.News.Entities.NPoco
         public string Subject { get; set; }
 
         [Column("CONTENT")]
-        public string Content { get; set; }
-
-        [Column("ICON")]
-        public byte[] Icon { get; set; }
+        public string Content { get; set; } 
 
         [Column("CATEGORYID")]
         public int? CategoryId { get; set; }
@@ -32,12 +29,8 @@ namespace Dews.News.Entities.NPoco
         public Guid CreateUser { get; set; }
 
         public override object GetDTO<TDtoType>()
-        {
-            NewsDTO newDTO = (NewsDTO)base.GetDTO<NewsDTO>();
-            if (Icon != null)
-                newDTO.Icon = Convert.ToBase64String(Icon);
-
-            return newDTO;
+        { 
+            return (NewsDTO)base.GetDTO<NewsDTO>(); ;
         }
 
     }

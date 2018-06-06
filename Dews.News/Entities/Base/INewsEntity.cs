@@ -11,9 +11,7 @@ namespace Dews.News.Entities.Base
 
         string Subject { get; set; }
 
-        string Content { get; set; }
-
-        byte[] Icon { get; set; }
+        string Content { get; set; } 
 
         int? CategoryId { get; set; }
 

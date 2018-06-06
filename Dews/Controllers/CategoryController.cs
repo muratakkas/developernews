@@ -9,6 +9,9 @@ using System.Linq;
 using System.Security.Claims;
 using Dews.News.DTOs;
 using Dews.Api.Extensions;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using Dews.Api.Constants;
 
 namespace Dews.Api.Controllers
 {
@@ -17,9 +20,16 @@ namespace Dews.Api.Controllers
     {
         private readonly ICategoryManager CategoryManager;
 
-        public CategoryController(ICategoryManager categoryManager)
+        private readonly IHostingEnvironment AppEnvironment;
+        public CategoryController(ICategoryManager categoryManager, IHostingEnvironment env)
         {
             CategoryManager = categoryManager;
+            AppEnvironment = env;
+        }
+
+        private string GetCategoryImagePath(int Id)
+        {
+            return Path.Combine(AppEnvironment.WebRootPath, Const.CATEGORY_UPLOAD_PATH, Id + ".jpg");
         }
 
         [HttpPost]
@@ -64,6 +74,9 @@ namespace Dews.Api.Controllers
                 else CategoryManager.CheckIsUserAuthonticatedToEditDelete(User.GetUserId(), request.Category);
 
                 CategoryManager.Add(request.Category);
+                 
+                ImageExtensions.SaveImage(GetCategoryImagePath(request.Category.Id.Value), request.Category.Icon);
+
                 return new AddCategoryResult() { };
             }
             catch (Exception ex)
@@ -86,6 +99,9 @@ namespace Dews.Api.Controllers
                 if (savedCategory.CreateUser != Guid.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier).Value)) throw new UnauthorizedAccessException();
 
                 CategoryManager.Delete(id);
+
+                ImageExtensions.DeleteImage(GetCategoryImagePath(id)); 
+
                 return new DeleteCategoryResult();
             }
             catch (Exception ex)

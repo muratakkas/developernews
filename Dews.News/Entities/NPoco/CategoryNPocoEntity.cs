@@ -14,9 +14,7 @@ namespace Dews.News.Entities.NPoco
 
         [Column("NAME")]
         public string Name { get; set; }
-
-        [Column("ICON")]
-        public byte[] Icon { get; set; }
+         
 
         [Column("PARENTID")]
         public int? ParentId { get; set; }
@@ -25,12 +23,8 @@ namespace Dews.News.Entities.NPoco
         public Guid CreateUser { get; set; }
 
         public override object GetDTO<TDtoType>()
-        {
-            CategoryDTO categoryDTO = (CategoryDTO)base.GetDTO<CategoryDTO>();
-            if (Icon != null)
-                categoryDTO.Icon = Convert.ToBase64String(Icon);
-
-            return categoryDTO;
+        { 
+            return (CategoryDTO)base.GetDTO<CategoryDTO>(); ;
         }
     }
 }

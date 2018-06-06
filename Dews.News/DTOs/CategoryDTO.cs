@@ -21,12 +21,8 @@ namespace Dews.News.DTOs
         public Guid CreateUser { get; set; }
 
         public override object ToEntityObject<TEntityInterfaceType>(IEntityManager entityManager)
-        {
-            CategoryNPocoEntity cateoryNPocoEntity = (CategoryNPocoEntity)base.ToEntityObject<ICategoryEntity>(entityManager);
-            if (!Icon.CheckIsNull())
-                cateoryNPocoEntity.Icon = Convert.FromBase64String(Icon);
-
-            return cateoryNPocoEntity;
+        { 
+            return (CategoryNPocoEntity)base.ToEntityObject<ICategoryEntity>(entityManager);
         }
     }
 }

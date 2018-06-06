@@ -10,8 +10,7 @@ namespace Dews.News.Entities.Base
         int Id { get; set; }
 
         string Name { get; set; }
-
-        byte[] Icon { get; set; }
+         
 
         int? ParentId { get; set; }
 

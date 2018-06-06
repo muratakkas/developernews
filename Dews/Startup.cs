@@ -60,7 +60,8 @@ namespace Dews.Api
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseDeveloperExceptionPage();
-
+             
+         
             app.UseCors("MyPolicy");
             if (env.IsDevelopment())
             {
@@ -68,6 +69,8 @@ namespace Dews.Api
             }
 
             app.UseAuthentication();
+
+            app.UseStaticFiles();
 
             app.UseMvc();
 

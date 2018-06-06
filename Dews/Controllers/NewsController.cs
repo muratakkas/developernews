@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Dews.News.DTOs;
 using Dews.Api.Extensions;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Dews.Api.Constants;
 
 namespace Dews.Api.Controllers
 {
@@ -16,10 +19,17 @@ namespace Dews.Api.Controllers
     {
         private readonly INewsManager NewsManager;
         private readonly ICategoryManager CategoryManager;
-        public NewsController(INewsManager newsManager, ICategoryManager categoryManager)
+        private readonly IHostingEnvironment AppEnvironment;
+        public NewsController(INewsManager newsManager, ICategoryManager categoryManager, IHostingEnvironment env)
         {
             NewsManager = newsManager;
             CategoryManager = categoryManager;
+            AppEnvironment = env;
+        }
+
+        private string GetNewsImagePath(int Id)
+        {
+            return Path.Combine(AppEnvironment.WebRootPath, Const.NEWS_UPLOAD_PATH, Id + ".jpg");
         }
          
         [HttpPost] 
@@ -69,6 +79,9 @@ namespace Dews.Api.Controllers
                 else NewsManager.CheckIsUserAuthonticatedToEditDelete(User.GetUserId(), addrequest.News);
                  
                 NewsManager.Save(addrequest.News);
+
+                ImageExtensions.SaveImage(GetNewsImagePath(addrequest.News.Id.Value), addrequest.News.Icon);
+
                 return new AddNewsResult() { };
             }
             catch (Exception ex)
@@ -92,6 +105,9 @@ namespace Dews.Api.Controllers
                 if (savedNews.CreateUser != Guid.Parse(User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier).Value)) throw new UnauthorizedAccessException();
 
                 NewsManager.Delete(id);
+
+                ImageExtensions.DeleteImage(GetNewsImagePath(id));
+
                 return new DeleteNewsResult();
             }
             catch (Exception ex)
