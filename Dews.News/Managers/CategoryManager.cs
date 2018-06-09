@@ -63,7 +63,7 @@ namespace Dews.News.Managers
             if (dto.Name.CheckIsNull()) throw new Exception(ResourcesEnum.NameMustBeEntered.Translate());
 
             //Check Content
-            if (dto.Icon.CheckIsNull()) throw new Exception(ResourcesEnum.IconMustBeEntered.Translate());
+            if (dto.Icon.CheckIsNull() && dto.IconName.CheckIsNull()) throw new Exception(ResourcesEnum.IconMustBeEntered.Translate());
         }
 
         #endregion

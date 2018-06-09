@@ -63,7 +63,7 @@ namespace Dews.News.Managers
             if (newsDTO.Subject.CheckIsNull()) throw new Exception(ResourcesEnum.SubjectMustBeEntered.Translate());
 
             //Check Content
-            if (newsDTO.Content.CheckIsNull()) throw new Exception(ResourcesEnum.ContentMustBeEntered.Translate());
+            if (newsDTO.Content.CheckIsNull() ) throw new Exception(ResourcesEnum.ContentMustBeEntered.Translate());
         }
 
         #endregion
@@ -125,7 +125,7 @@ namespace Dews.News.Managers
             try
             {
                 LoggerInstance.Log("Saving news");
-                ValidateNews(newsDTO); 
+                ValidateNews(newsDTO);
                 DatabaseInstance.Save(newsDTO.ToEntity<INewsEntity>(EntityManager));
             }
             catch (Exception ex)

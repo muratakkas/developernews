@@ -11,6 +11,7 @@ using Dews.Api.Extensions;
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 using Dews.Api.Constants;
+using Dews.Shared.Resources.Extensions;
 
 namespace Dews.Api.Controllers
 {
@@ -27,9 +28,9 @@ namespace Dews.Api.Controllers
             AppEnvironment = env;
         }
 
-        private string GetNewsImagePath(int Id)
+        private string GetNewsImagePath(string imageName)
         {
-            return Path.Combine(AppEnvironment.WebRootPath, Const.NEWS_UPLOAD_PATH, Id + ".jpg");
+            return Path.Combine(AppEnvironment.WebRootPath, Const.NEWS_UPLOAD_PATH, imageName + ".jpg");
         }
          
         [HttpPost] 
@@ -77,11 +78,13 @@ namespace Dews.Api.Controllers
                 // Check if the current user is authorized to make this operation
                 if (!addrequest.News.Id.HasValue) addrequest.News.CreateUser = User.GetUserId(); 
                 else NewsManager.CheckIsUserAuthonticatedToEditDelete(User.GetUserId(), addrequest.News);
-                 
+
+                if (addrequest.News.IconName.CheckIsNull()) addrequest.News.IconName = Guid.NewGuid().ToString();
                 NewsManager.Save(addrequest.News);
 
-                ImageExtensions.SaveImage(GetNewsImagePath(addrequest.News.Id.Value), addrequest.News.Icon);
-
+                if(addrequest.News.Icon != null && addrequest.News.Icon.Length > 0)
+                    ImageExtensions.SaveImage(GetNewsImagePath(addrequest.News.IconName), addrequest.News.Icon);
+            
                 return new AddNewsResult() { };
             }
             catch (Exception ex)
@@ -106,7 +109,7 @@ namespace Dews.Api.Controllers
 
                 NewsManager.Delete(id);
 
-                ImageExtensions.DeleteImage(GetNewsImagePath(id));
+                ImageExtensions.DeleteImage(GetNewsImagePath(savedNews.IconName));
 
                 return new DeleteNewsResult();
             }

@@ -14,7 +14,9 @@ namespace Dews.News.Entities.NPoco
 
         [Column("NAME")]
         public string Name { get; set; }
-         
+
+        [Column("ICONNAME")]
+        public string IconName  { get; set; }
 
         [Column("PARENTID")]
         public int? ParentId { get; set; }

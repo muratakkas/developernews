@@ -13,6 +13,7 @@ namespace Dews.News.DTOs
         public NewsDTO() : base()
         {
             CreateDate = DateTimeOffset.Now;
+            IconName = Guid.NewGuid().ToString();
         }
         public int? Id { get; set; }
 
@@ -21,6 +22,8 @@ namespace Dews.News.DTOs
         public string Content { get; set; }
 
         public string Icon { get; set; }
+
+        public string IconName { get; set; }
 
         public int CategoryId { get; set; }
 

@@ -25,6 +25,9 @@ namespace Dews.News.Entities.NPoco
         [Column("CREATEDATE")]
         public DateTimeOffset CreateDate { get; set; }
 
+        [Column("ICONNAME")]
+        public string IconName { get; set; }
+
         [Column("CREATEUSER")]
         public Guid CreateUser { get; set; }
 

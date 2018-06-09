@@ -10,6 +10,11 @@ namespace Dews.News.DTOs
 {
     public class CategoryDTO : DTOBase
     {
+
+        public CategoryDTO()
+        {
+            IconName = Guid.NewGuid().ToString();
+        }
         public int? Id { get; set; }
 
         public string Name { get; set; }
@@ -17,11 +22,11 @@ namespace Dews.News.DTOs
         public int? ParentId { get; set; }
 
         public string Icon { get; set; }
-
+        public string IconName { get; set; }
         public Guid CreateUser { get; set; }
 
         public override object ToEntityObject<TEntityInterfaceType>(IEntityManager entityManager)
-        { 
+        {
             return (CategoryNPocoEntity)base.ToEntityObject<ICategoryEntity>(entityManager);
         }
     }

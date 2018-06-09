@@ -12,6 +12,7 @@ using Dews.Api.Extensions;
 using Microsoft.AspNetCore.Hosting;
 using System.IO;
 using Dews.Api.Constants;
+using Dews.Shared.Resources.Extensions;
 
 namespace Dews.Api.Controllers
 {
@@ -27,9 +28,9 @@ namespace Dews.Api.Controllers
             AppEnvironment = env;
         }
 
-        private string GetCategoryImagePath(int Id)
+        private string GetCategoryImagePath(string imagename)
         {
-            return Path.Combine(AppEnvironment.WebRootPath, Const.CATEGORY_UPLOAD_PATH, Id + ".jpg");
+            return Path.Combine(AppEnvironment.WebRootPath, Const.CATEGORY_UPLOAD_PATH, imagename + ".jpg");
         }
 
         [HttpPost]
@@ -73,10 +74,12 @@ namespace Dews.Api.Controllers
                 // Check if the current user is authorized to make this operation 
                 else CategoryManager.CheckIsUserAuthonticatedToEditDelete(User.GetUserId(), request.Category);
 
+                if (request.Category.IconName.CheckIsNull()) request.Category.IconName = Guid.NewGuid().ToString();
                 CategoryManager.Add(request.Category);
-                 
-                ImageExtensions.SaveImage(GetCategoryImagePath(request.Category.Id.Value), request.Category.Icon);
 
+                if (request.Category.Icon != null && request.Category.Icon.Length > 0)
+                    ImageExtensions.SaveImage(GetCategoryImagePath(request.Category.IconName), request.Category.Icon);
+               
                 return new AddCategoryResult() { };
             }
             catch (Exception ex)
@@ -100,7 +103,7 @@ namespace Dews.Api.Controllers
 
                 CategoryManager.Delete(id);
 
-                ImageExtensions.DeleteImage(GetCategoryImagePath(id)); 
+                ImageExtensions.DeleteImage(GetCategoryImagePath(savedCategory.IconName)); 
 
                 return new DeleteCategoryResult();
             }
