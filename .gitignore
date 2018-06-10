@@ -40,3 +40,5 @@ obj
 PublishProfiles
 PublishProfiles
 PublishProfiles
+/Dews/wwwroot/uploads
+/IdentityServerWithAspIdAndEF/identityserver4_log.txt
